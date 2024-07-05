@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripura Statistics Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #003366;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+/* Data Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Directorate of Economics & Statistics, Government of Tripura</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#data">Data & Reports</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to the Tripura Statistics Portal</h2>
+                <p>This portal provides comprehensive data and statistics about the state of Tripura. Explore our services to learn more.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>The Directorate of Economics & Statistics (DES) is dedicated to collecting, analyzing, and disseminating statistical data for the state of Tripura. Our mission is to provide accurate and timely statistics to support informed decision-making and policy development.</p>
+                <h3>Our Vision</h3>
+                <p>To be a leading statistical agency known for the integrity, reliability, and quality of our data and services.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Data Collection</li>
+                    <li>Statistical Analysis</li>
+                    <li>Publications</li>
+                    <li>Research Support</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="data">
+            <div class="container">
+                <h2>Data & Reports</h2>
+                <p>Access the latest statistical data and reports from the Directorate of Economics & Statistics. Downloadable resources are available in various formats for ease of use.</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Population</th>
+                            <th>GDP Growth (%)</th>
+                            <th>Unemployment Rate (%)</th>
+                            <th>Literacy Rate (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2020</td>
+                            <td>4,000,000</td>
+                            <td>6.5</td>
+                            <td>4.2</td>
+                            <td>85.4</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>4,050,000</td>
+                            <td>7.0</td>
+                            <td>4.0</td>
+                            <td>86.1</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>4,100,000</td>
+                            <td>6.8</td>
+                            <td>3.9</td>
+                            <td>86.8</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <a href="data.html" class="button">View More Data & Reports</a>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="container">
+                <h2>Latest News</h2>
+                <p>Stay updated with the latest news and announcements from the Directorate of Economics & Statistics.</p>
+                <article>
+                    <h3>New Statistical Report Released</h3>
+                    <p>We are pleased to announce the release of our latest statistical report. This comprehensive report provides in-depth analysis of the state's economic performance over the past year.</p>
+                </article>
+                <article>
+                    <h3>Upcoming Workshop on Data Analysis</h3>
+                    <p>Join us for an upcoming workshop on advanced data analysis techniques. Learn from experts in the field and enhance your analytical skills.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>We value your feedback and inquiries. Please use the form below to get in touch with us.</p>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Directorate of Economics & Statistics, Government of Tripura. All rights reserved.</p>
+            <p><a href="#privacy-policy">Privacy Policy</a> | <a href="#terms-of-service">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
